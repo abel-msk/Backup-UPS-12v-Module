@@ -1,0 +1,10 @@
+# MacOS files
+**/.DS_Store
+**/.idea
+*backups/*
+**/*.zip
+*.lck
+~*
+_autosave-*
+fp-info-cache
+.history/
