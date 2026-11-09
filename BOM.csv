@@ -1,5 +1,5 @@
 ﻿Refs;Qty;Value;Footprint;Источник
-J1;1;PSU/BAT IN;ScrewTerminal_KF7.62_4P;как на старой плате
+J1;1;PSU/BAT IN HB762-7.62-4P;ScrewTerminal_HB762_7.62_4P;склад
 J3;1;OUT XH max 3A;JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical;AliExpress
 J4 J6 J7 J8;4;OUT 12V;BarrelJack_Horizontal;как на старой плате
 U1 U2;2;LM74700-Q1;SOT-23-6;AliExpress
@@ -12,14 +12,14 @@ C3;1;1nF 50V;C_0603_1608Metric;склад
 Q3 Q7;2;BC846B;SOT-23;склад
 R3 R16;2;470k;R_0805_2012Metric;склад
 U3;1;MT3608;SOT-23-6;склад
-L1;1;10uH 5.3A;L_7.3x7.3_H4.5;склад
+L1;1;10uH 5.3A;L_Molded_0650_7.5x6.6_H5.0;склад
 D1 D2 D3;3;SS34;D_SMA;склад
 R1 R4 R13 R17;4;100k;R_0805_2012Metric;склад
 R6;1;5.1k;R_0805_2012Metric;склад
 C7 C8 C9 C6;4;22uF 25V;C_1206_3216Metric;склад
 U4;1;CN3763;SSOP-10_3.9x4.9mm_P1.00mm;AliExpress
 Q4 Q10;2;AO3401A;SOT-23;склад
-L2;1;22uH 5.5A;L_10.4x10.4_H4.8;склад
+L2;1;22uH 5.5A;L_Molded_1040_11.6x10.1_H4.0;склад
 R7;1;0.15R 1206;R_1206_3216Metric;AliExpress
 C11 C14;2;10uF 50V;C_1206_3216Metric;склад
 R9;1;120;R_0603_1608Metric;склад
@@ -34,12 +34,12 @@ U5;1;ESP32-C3 Pro Mini;ESP32-C3_Pro_mini_pin;есть, в базе не числ
 U6;1;AMS1117-3.3;SOT-223;склад
 C15;1;10uF 16V Tant;CP_EIA-3216-18_Kemet-A;склад
 J11;1;LED PH;JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical;AliExpress
-R20;1;160k 1%;R_0603_1608Metric;AliExpress
-R21;1;20k 1%;R_0603_1608Metric;AliExpress
+R20;1;160k 1%;R_0805_2012Metric;AliExpress
+R21;1;20k 1%;R_0805_2012Metric;AliExpress
 R22;1;10M;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;AliExpress
 U7;1;LMV431AIMF;SOT-23;склад
 RV1;1;10k 3296W-103 Baoter;Potentiometer_Bourns_3296W_Vertical;склад
 D4;1;TO-1608BC-MRE красный;LED_0603_1608Metric;склад
 J12;1;LED OUT BAT PH;JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical;AliExpress
 D5;1;LED 0603 зелёный;LED_0603_1608Metric;AliExpress
-F1;1;MF-R1100 11A 16V;футпринт выбрать при установке на плату;AliExpress
+F1;1;предохранитель 1808 10A + держатель 01550900M;Fuseholder_1808_SMD_Littelfuse_01550900;AliExpress

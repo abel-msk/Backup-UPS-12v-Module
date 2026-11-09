@@ -136,7 +136,7 @@ Closed: output on. Open or not connected: output off.
 - Q5 (AOD403) breaks the positive output line, and R16 discharges the output when there is no load.
 - With no mains and the output off, the battery typically supplies about 11 µA to the board, about 17 µA maximum (CN3763 9–15 µA, U2 in shutdown up to 1.5 µA).
 - With mains present, the battery keeps charging even when the output is off.
-- F1 (MF-R1100) sits between Q5 and VOUT. Hold current is 11 A at 23 °C and 9.4 A at 40 °C, trip from 18–22 A. A 10 A PSU or a 15 A BMS may limit the current before F1 opens.
+- F1 (1808 fuse, 10 A, in a 01550900M style SMD holder) sits between Q5 and VOUT. At 8 A continuous it runs at 80% of its rating, so a hot board can blow it early. Do not fit a fuse above 10 A: the original holder is rated for 10 A.
 - J3 (JST XH) is limited to 3 A. The main 8 A current flows through power connectors J4, J6, J7, J8.
 
 ## Requirements

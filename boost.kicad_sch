@@ -2255,7 +2255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H4.5"
+		(property "Footprint" "Inductor_SMD_Local:L_Molded_0650_7.5x6.6_H5.0"
 			(at 135.636 76.2 0)
 			(hide yes)
 			(show_name no)
