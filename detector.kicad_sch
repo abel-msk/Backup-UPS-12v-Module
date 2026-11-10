@@ -1,0 +1,3713 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8326b69b-995a-4503-b21c-921ceb1324f1")
+	(paper "A4")
+	(title_block
+		(title "Mains detector: threshold and switchover control")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "POT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Reference_Voltage_local:LMV431AIMF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LMV431AIMF"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+				(at 1.778 -9.144 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.112 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LMV431AIMF_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LMV431AIMF_1_1"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_BEC"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_BEC"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "NPN transistor, base/emitter/collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_NPN_BEC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_BEC_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GNDPWR"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Детектор сети: при PSU_IN выше порога (RV1, 11.0-11.6 В) Q3 запирает U2"
+		(exclude_from_sim no)
+		(at 95.25 28.194 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1987826c-eb2d-4a40-8ed0-2882fa023396")
+	)
+	(text "Детектор PSU: батарея включается при падении ниже 11.0-11.6 В (RV1), гистерезис около 0.2 В"
+		(exclude_from_sim no)
+		(at 95.25 36.068 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "803e768d-21fa-42be-9236-3e1e8f8f54a7")
+	)
+	(junction
+		(at 52.832 71.882)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31e038c4-ebcd-43ef-8acb-0bbf79487f77")
+	)
+	(junction
+		(at 119.126 65.278)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e89aada-a5ce-42c6-b46c-352d0fd273bc")
+	)
+	(junction
+		(at 73.66 77.724)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50aab435-69d5-418c-bc3e-12cfeacfc678")
+	)
+	(junction
+		(at 73.66 92.456)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5595536a-a4dc-45ca-8fc7-6a646cf23bd4")
+	)
+	(junction
+		(at 73.66 81.534)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5926a54c-2d4e-41db-a2e2-70ed13c12f6e")
+	)
+	(junction
+		(at 56.896 71.882)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81c93ef7-7177-469f-ba98-9d91d724be28")
+	)
+	(junction
+		(at 110.236 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b3b673-7aba-4aa3-9a09-67187c50fc95")
+	)
+	(junction
+		(at 102.108 103.378)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2157b84-60f5-4049-a60e-ea95a1bec57e")
+	)
+	(junction
+		(at 73.66 103.378)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdbf49c8-61db-4d1e-bf10-cfffc96fd7cc")
+	)
+	(junction
+		(at 95.758 103.378)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d3b528-e9ea-498b-88b9-3c187be30a1f")
+	)
+	(junction
+		(at 101.854 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d62b5335-3e8b-4923-9270-c09b30136aa7")
+	)
+	(junction
+		(at 110.236 103.378)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8221454-65c0-4366-8d86-5296ad965e0f")
+	)
+	(junction
+		(at 47.498 80.518)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f77641d8-94d2-45bf-a47f-3f23cf87a8c5")
+	)
+	(wire
+		(pts
+			(xy 65.532 71.882) (xy 68.072 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10bdd7c4-765b-47bb-96e3-a7b73d0454a3")
+	)
+	(wire
+		(pts
+			(xy 73.66 72.39) (xy 73.66 81.534)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121f6e7f-4881-4572-a836-1796d131128d")
+	)
+	(wire
+		(pts
+			(xy 52.578 71.882) (xy 52.832 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b7b69b-20a6-459b-8e1e-d869128d4967")
+	)
+	(wire
+		(pts
+			(xy 110.236 72.39) (xy 101.854 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169bdcf9-d4da-43d7-80ea-3c0ebae5f68e")
+	)
+	(wire
+		(pts
+			(xy 160.782 83.82) (xy 158.242 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a822dc4-c24d-4af0-932e-fc3ded88e12e")
+	)
+	(wire
+		(pts
+			(xy 110.236 84.836) (xy 110.236 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234a6669-16ab-4af4-b031-91e9b315cc3e")
+	)
+	(wire
+		(pts
+			(xy 185.928 78.994) (xy 185.928 76.454)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289629c4-5f14-41a4-a8da-e93a76441bd8")
+	)
+	(wire
+		(pts
+			(xy 87.376 72.39) (xy 91.694 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6806f5-b6d4-44d8-af76-6598f2342a5c")
+	)
+	(wire
+		(pts
+			(xy 119.126 61.722) (xy 119.126 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42caf478-4c5a-4f0f-98a1-c72da8bbc6e0")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.584) (xy 73.66 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c0f0a8f-7f49-4161-8732-8627231ac90b")
+	)
+	(wire
+		(pts
+			(xy 101.854 103.124) (xy 102.108 103.124)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8a19df-97e8-4a3b-82a0-ac5c1ae0296f")
+	)
+	(wire
+		(pts
+			(xy 50.038 92.456) (xy 73.66 92.456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5493c573-d565-4c81-b89a-9276a4356304")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.534) (xy 73.66 92.964)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54985341-a136-46a9-b894-961595c0591d")
+	)
+	(wire
+		(pts
+			(xy 52.832 71.882) (xy 56.896 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c36d53c-c56c-4ee5-b134-621bc3c416f2")
+	)
+	(wire
+		(pts
+			(xy 102.108 103.378) (xy 110.236 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6924d55f-8f89-49bc-bdfa-7bbad50dcfe2")
+	)
+	(wire
+		(pts
+			(xy 168.402 88.9) (xy 168.402 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a1b0da-cdf4-4a12-83d2-14844e031618")
+	)
+	(wire
+		(pts
+			(xy 185.928 86.614) (xy 185.928 89.154)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0d120e-8017-4b35-beb1-3e4c4baadd68")
+	)
+	(wire
+		(pts
+			(xy 47.498 79.502) (xy 47.498 80.518)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774979a1-acd2-4ec9-a93c-0abf8f0b61d0")
+	)
+	(wire
+		(pts
+			(xy 101.854 103.124) (xy 101.854 85.344)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc3e45c-2235-49c9-bafe-f8f66ed27a75")
+	)
+	(wire
+		(pts
+			(xy 56.896 61.722) (xy 56.896 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "996fe48d-893e-4535-a041-a04cbd999b41")
+	)
+	(wire
+		(pts
+			(xy 168.402 78.74) (xy 168.402 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5011ae-919e-40ab-8ffb-dd1c004c3a89")
+	)
+	(wire
+		(pts
+			(xy 110.236 103.378) (xy 119.126 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f76e4b2-a31c-45f3-b192-590cf7cf11bf")
+	)
+	(wire
+		(pts
+			(xy 102.108 103.124) (xy 102.108 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e6d98c-7122-4a1a-ab9f-7c57feaec8fe")
+	)
+	(wire
+		(pts
+			(xy 110.236 72.39) (xy 111.506 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be86f295-d915-4dcc-bf08-cc79c6745df5")
+	)
+	(wire
+		(pts
+			(xy 68.072 81.534) (xy 73.66 81.534)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c258a59b-a8c6-4c5c-9861-6477f42c94bf")
+	)
+	(wire
+		(pts
+			(xy 95.758 103.378) (xy 95.758 106.172)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47bedf7-5d66-4164-8886-07070e915986")
+	)
+	(wire
+		(pts
+			(xy 110.236 72.39) (xy 110.236 77.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fb78aa-7fa6-4445-bc46-e7ed10381808")
+	)
+	(wire
+		(pts
+			(xy 52.832 71.882) (xy 52.832 72.898)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d24735-2346-4147-80d3-92a7fc8f4e19")
+	)
+	(wire
+		(pts
+			(xy 101.854 72.39) (xy 101.854 77.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc311da1-0470-4cbb-8e2a-1fe33ad84c21")
+	)
+	(wire
+		(pts
+			(xy 101.854 72.39) (xy 99.314 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc0cfa4-086f-416c-ab49-78ca6e5bf9a9")
+	)
+	(wire
+		(pts
+			(xy 47.498 89.916) (xy 47.498 88.138)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cefb2ffb-0db4-420a-ada9-cf483b09d79e")
+	)
+	(wire
+		(pts
+			(xy 79.756 72.39) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d30b70-fbdb-4730-a4a1-8f8869008e18")
+	)
+	(wire
+		(pts
+			(xy 119.126 65.278) (xy 119.126 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6001c9-ccf0-4c8e-929e-3553fbfe0982")
+	)
+	(wire
+		(pts
+			(xy 119.126 77.47) (xy 119.126 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbec8f2f-6b41-4711-819e-d2e07e7f6ea2")
+	)
+	(wire
+		(pts
+			(xy 38.354 71.882) (xy 42.418 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de65a0b2-85d3-494f-b709-e4b99538bc6f")
+	)
+	(wire
+		(pts
+			(xy 47.498 103.378) (xy 102.108 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de790d2b-8a06-4035-bcaa-26e511235c95")
+	)
+	(wire
+		(pts
+			(xy 68.072 71.882) (xy 68.072 73.914)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd4c2c0-3f1e-4acb-a7de-b72bee2902bd")
+	)
+	(wire
+		(pts
+			(xy 47.498 94.996) (xy 47.498 103.378)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff728a3-900d-4608-88c2-0562378e75c8")
+	)
+	(wire
+		(pts
+			(xy 56.896 71.882) (xy 57.912 71.882)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d415d7-c39c-414e-90ab-a4ef0ae1de43")
+	)
+	(wire
+		(pts
+			(xy 71.882 77.724) (xy 73.66 77.724)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f828fd34-1ef6-4afc-b5cb-d8c6b19bacc2")
+	)
+	(wire
+		(pts
+			(xy 52.832 80.518) (xy 47.498 80.518)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90fd83a-64d5-4af1-b262-52a2dfe4cfeb")
+	)
+	(label "PSU_DET"
+		(at 108.458 72.39 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ca7e811-66b6-45ef-b1d6-2e7041ac5bd3")
+	)
+	(label "DET_DRV"
+		(at 91.694 72.39 270)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "92f51e69-88cc-4c06-85ac-936aee43de32")
+	)
+	(label "DET_REF"
+		(at 79.756 72.39 270)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3b44f61-8b81-416d-aad2-3e8365d50752")
+	)
+	(label "DET_G"
+		(at 47.498 80.264 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5b0853f-f2ac-41bf-8fa6-16caf48aa884")
+	)
+	(label "PSU_DET"
+		(at 158.242 83.82 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "bce280f4-3f5a-4065-9358-7e57cd576a02")
+	)
+	(label "DET_DRV"
+		(at 38.354 71.882 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2c6cf3e-5094-41c1-8ce2-a9a3a21d1831")
+	)
+	(hierarchical_label "SW_ON"
+		(shape input)
+		(at 126.746 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00f30406-6c19-414b-8944-25accc7aada7")
+	)
+	(hierarchical_label "PSU_IN"
+		(shape input)
+		(at 56.896 61.722 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "4954aa3e-e68f-423d-8763-3f076be422d9")
+	)
+	(hierarchical_label "BAT_EN"
+		(shape output)
+		(at 119.126 61.722 180)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "700cf20f-b484-4f79-8d4d-5cf7988e5821")
+	)
+	(hierarchical_label "ON_BATTERY"
+		(shape output)
+		(at 168.402 76.2 90)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b1e6285-0085-4674-b68f-54617711ede1")
+	)
+	(hierarchical_label "ON_BATTERY"
+		(shape output)
+		(at 185.928 89.154 270)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify right bottom)
+		)
+		(uuid "9766143c-b32e-4ba7-8403-cf90787344c8")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 185.928 76.454 90)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "f02216c5-ec3d-48db-84da-8145ceb65d5b")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 61.722 71.882 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0363d864-dda1-43bb-99ba-ebe5540e0e30")
+		(property "Reference" "R20"
+			(at 59.182 66.548 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "160k"
+			(at 59.182 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 61.722 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 61.722 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1%"
+			(at 64.77 69.088 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Source" "AliExpress"
+			(at 61.722 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "accfa399-e1f0-4e2b-b9d8-86ebb6387269")
+		)
+		(pin "2"
+			(uuid "3c9fd68d-eadf-4ac6-8f6d-c76739212e4c")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.236 81.026 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b9b9379-fd16-42cc-9cf1-0536046c8896")
+		(property "Reference" "C3"
+			(at 113.236 78.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 113.236 83.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 110.236 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.236 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50V"
+			(at 113.236 86.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 110.236 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30cf35d7-bf9d-43d7-ac95-7e1173082db8")
+		)
+		(pin "2"
+			(uuid "8ce6bd1d-1f15-479b-b57a-0fae91708bed")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 68.072 77.724 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "246e2ee2-e002-415e-8f55-52bd808b5be3")
+		(property "Reference" "RV1"
+			(at 62.484 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 62.738 79.248 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
+			(at 68.072 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.072 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.072 82.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 68.072 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "3296W-103"
+			(at 68.072 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c52db6c-c361-459a-82a1-10b9d56307eb")
+		)
+		(pin "2"
+			(uuid "e0d80e6e-80b1-4f71-ae94-37bbbe425b0a")
+		)
+		(pin "3"
+			(uuid "5b926efe-17f1-4f2c-b6e8-68a74d581f84")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 168.402 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29be7010-9a1f-4af5-9989-6f8acfd1f2a3")
+		(property "Reference" "#PWR037"
+			(at 171.402 88.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 171.402 93.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.402 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.402 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.402 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56e7f0c2-481c-4973-bc21-7655dc287c8a")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.854 81.534 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "337635f4-b257-4ff6-944d-7d9dec7db4ef")
+		(property "Reference" "R2"
+			(at 104.14 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 104.14 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.854 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.854 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.854 86.574 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 101.854 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d8954bf-bd3e-4d24-bbe5-98e7d93df94c")
+		)
+		(pin "2"
+			(uuid "d24b6584-a092-43fd-a4ec-483240288def")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Reference_Voltage_local:LMV431AIMF")
+		(at 47.498 92.456 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ae56998-8e9a-4452-b947-dd21dff07981")
+		(property "Reference" "U7"
+			(at 49.53 94.234 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LMV431AIMF"
+			(at 49.276 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 47.498 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 47.498 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 42.458 89.456 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 47.498 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LMV431AIMF"
+			(at 47.498 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e664318a-2858-4ecb-ae31-dca386051e13")
+		)
+		(pin "2"
+			(uuid "de330fdb-9f51-406b-9413-5079440cc4e1")
+		)
+		(pin "3"
+			(uuid "1658e7f0-39cb-488b-9beb-cb017e2eab7c")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.928 82.804 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d1389d1-bbb1-4703-80b1-cc6c9ce21615")
+		(property "Reference" "R17"
+			(at 188.928 80.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 188.928 85.304 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 185.928 82.804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.928 82.804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 188.928 87.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 185.928 82.804 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "704e4aa2-e501-4123-b585-ec7795ad73c6")
+		)
+		(pin "2"
+			(uuid "a82308fa-56cb-403e-bf60-abd96857b2fb")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.504 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5037f984-6aaa-44b2-94d1-c897f380699c")
+		(property "Reference" "R1"
+			(at 96.012 69.596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 98.044 74.676 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 95.504 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.504 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.544 69.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 95.504 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9782a7d9-da3d-4cae-a567-7a9f83f51fce")
+		)
+		(pin "2"
+			(uuid "e1d89ac4-1809-43ad-b819-c07ed8c52770")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.832 76.708 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a20ca4a-3d42-4753-93f7-665f8e80dbf2")
+		(property "Reference" "R23"
+			(at 54.356 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 54.61 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 52.832 76.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.832 76.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.832 81.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 52.832 76.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 52.832 76.708 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5977826-765e-495c-8466-e4ae43897021")
+		)
+		(pin "2"
+			(uuid "1f3a7adc-d101-4093-b9bc-737c9966b4ff")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 95.758 106.172 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6217d22e-d839-43c9-9679-7c50c0b7ffec")
+		(property "Reference" "#PWR041"
+			(at 98.758 103.672 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 98.758 108.672 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.758 106.172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.758 106.172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.758 106.172 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b00fd19a-fc6a-4e3e-b537-6bc17d50273d")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.566 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ca44054-59ee-4cb9-a052-77ec8d388ab8")
+		(property "Reference" "R22"
+			(at 81.788 70.104 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10M"
+			(at 81.788 74.676 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 83.566 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.566 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 78.526 75.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "AliExpress"
+			(at 83.566 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "descr" ""
+			(at 83.566 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0613b38-fd5c-4dd1-989f-604be422668f")
+		)
+		(pin "2"
+			(uuid "df48d141-e143-4075-ab30-09fc77bfb6ec")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 47.498 84.328 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "703ccc65-2058-4c6f-b3c5-708e09f14ce5")
+		(property "Reference" "R24"
+			(at 45.212 86.36 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 49.784 86.106 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 47.498 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 47.498 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 50.498 89.368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 47.498 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aaa6cd72-a8df-4fab-bf59-fd840d3f3ba3")
+		)
+		(pin "2"
+			(uuid "b711e428-ace5-49fe-95c2-aff3eef492ca")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
+		(at 165.862 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8096c628-83d6-42e2-a6f6-6734b715ee4b")
+		(property "Reference" "Q7"
+			(at 168.862 81.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846B"
+			(at 168.862 86.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 165.862 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.862 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.862 88.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 165.862 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BC846B"
+			(at 165.862 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95faaa2c-fd23-4e75-85fa-4c07d28146a7")
+		)
+		(pin "2"
+			(uuid "3bf30cea-e703-4487-b895-b447c02882ad")
+		)
+		(pin "3"
+			(uuid "bdca4d0f-ec2d-448c-8441-f9b94bc3a7f2")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 73.66 96.774 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9d82ce1-9ddf-4d45-9d7d-33dea040bea8")
+		(property "Reference" "R21"
+			(at 75.438 95.504 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 75.438 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 73.66 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1%"
+			(at 75.692 99.568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "AliExpress"
+			(at 73.66 96.774 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "715c2916-40b2-48fd-b385-22dfcd2ce359")
+		)
+		(pin "2"
+			(uuid "47e842e5-6da2-4efc-8fcd-5318abf67f85")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 122.936 65.278 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbf7f3e5-7d9a-4a3a-b797-e1d858d9bd78")
+		(property "Reference" "R3"
+			(at 123.698 62.992 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 123.19 67.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 122.936 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 122.936 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 117.896 68.278 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 122.936 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ede5e78-dc7e-45c7-8a95-3c6de3652f81")
+		)
+		(pin "2"
+			(uuid "d43b91d1-8c91-456f-a6ec-7461c3be32be")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
+		(at 116.586 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e309992b-1101-49d8-a2fd-4c7b00921499")
+		(property "Reference" "Q3"
+			(at 119.586 69.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC846B"
+			(at 119.586 74.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.586 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.586 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.586 77.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 116.586 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BC846B"
+			(at 116.586 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27255fa7-862c-469b-9033-cf6ea527b332")
+		)
+		(pin "2"
+			(uuid "ab9c8a9a-b0b1-4808-a4ce-d2e21e86b9b7")
+		)
+		(pin "3"
+			(uuid "233705ad-a463-402e-a0d4-13a57699ae88")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 47.498 74.422 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb361baf-9841-4b94-a66d-645b897dfa3a")
+		(property "Reference" "Q10"
+			(at 44.45 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 48.768 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 47.498 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 47.498 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.538 71.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Source" "склад"
+			(at 47.498 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "AO3401A"
+			(at 47.498 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5637d06e-640d-4609-9c04-8d139c621f6e")
+		)
+		(pin "2"
+			(uuid "4244d5b5-3e62-466b-813c-4825d55af792")
+		)
+		(pin "3"
+			(uuid "a8d1b34f-95ca-4a7c-ac1e-962b16ae4cb9")
+		)
+		(instances
+			(project "Backup UPS 12v Module"
+				(path "/7ca50d0f-f559-49b7-8c40-8a0dd824c105/a169c06f-07ff-483c-aaa0-5ae0c6f34939"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

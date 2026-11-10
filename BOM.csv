@@ -6,7 +6,8 @@ U1 U2;2;LM74700-Q1;SOT-23-6;AliExpress
 Q1 Q2;2;AOD514;TO-252-2;склад
 C1 C2 C10 C13 C16;5;100nF 50V;C_0805_2012Metric;склад
 C4 C5;2;470uF 16V LowESR;CP_Radial_D8.0mm_P3.50mm;склад
-R2 R5 R15 R24;4;20k;R_0603_1608Metric;склад
+R2 R15 R24;3;20k;R_0603_1608Metric;склад
+R5;1;20k 1%;R_0805_2012Metric;AliExpress
 R23;1;20k;R_0805_2012Metric_Pad1.20x1.40mm_HandSolder;склад
 C3;1;1nF 50V;C_0603_1608Metric;склад
 Q3 Q7;2;BC846B;SOT-23;склад
@@ -14,8 +15,9 @@ R3 R16;2;470k;R_0805_2012Metric;склад
 U3;1;MT3608;SOT-23-6;склад
 L1;1;10uH 5.3A;L_Molded_0650_7.5x6.6_H5.0;склад
 D1 D2 D3;3;SS34;D_SMA;склад
-R1 R4 R13 R17;4;100k;R_0805_2012Metric;склад
-R6;1;5.1k;R_0805_2012Metric;склад
+R1 R13 R17;3;100k;R_0805_2012Metric;склад
+R4;1;100k 1%;R_0805_2012Metric;склад
+R6;1;5.1k 1%;R_0805_2012Metric;склад
 C7 C8 C9 C6;4;22uF 25V;C_1206_3216Metric;склад
 U4;1;CN3763;SSOP-10_3.9x4.9mm_P1.00mm;AliExpress
 Q4 Q10;2;AO3401A;SOT-23;склад
@@ -43,3 +45,8 @@ D4;1;TO-1608BC-MRE красный;LED_0603_1608Metric;склад
 J12;1;LED OUT BAT PH;JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical;AliExpress
 D5;1;LED 0603 зелёный;LED_0603_1608Metric;AliExpress
 F1;1;предохранитель 1808 10A + держатель 01550900M;Fuseholder_1808_SMD_Littelfuse_01550900;AliExpress
+U8;1;INA226;TSSOP-10_3x3mm_P0.5mm;AliExpress
+R29;1;0.002R 2512 2W 1%;R_2512_6332Metric_Pad1.40x3.35mm_HandSolder;AliExpress
+C17;1;100nF 50V;C_0805_2012Metric;склад
+R30 R31;2;10k;R_0805_2012Metric;AliExpress
+J13;1;DISPLAY SPI PH;JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical;склад

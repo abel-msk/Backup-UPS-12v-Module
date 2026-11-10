@@ -1483,7 +1483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.416 92.202 0)
 			(hide yes)
 			(show_name no)
@@ -1505,7 +1505,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 151.892 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +1516,7 @@
 				(justify left)
 			)
 		)
-		(property "Source" "склад"
+		(property "Source" "AliExpress"
 			(at 153.416 92.202 0)
 			(hide yes)
 			(show_name no)
@@ -1597,7 +1597,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 143.256 102.108 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +2184,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1%"
 			(at 163.02 89.876 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -105,9 +105,10 @@ The BAT_EN pull-up comes from SW_ON, so with J10 open U2 stays disabled regardle
 
 | Sheet | File | Contents | Connections to root |
 |---|---|---|---|
-| Root | `Backup UPS 12v Module.kicad_sch` | ideal diodes, mains detector, output switch, ESP32, status transistors Q8 and Q9, indicators, J11 and J12 | |
+| Root | `Backup UPS 12v Module.kicad_sch` | ideal diodes, output switch, ESP32, status transistors Q8 and Q9, indicators, J11 and J12 | |
 | Boost | `boost.kicad_sch` | MT3608 (U3) and its components | PSU_IN, V15 |
 | Charger | `charger.kicad_sch` | CN3763 (U4) and its components | V15, BAT+, CHRG, DONE |
+| Detector | `detector.kicad_sch` | mains detector: threshold (U7, RV1, R20–R22), Q10, Q3, Q7 | PSU_IN, SW_ON, 3V3, BAT_EN, ON_BATTERY |
 
 ## ESP32-C3 Pro Mini
 
@@ -118,6 +119,8 @@ The BAT_EN pull-up comes from SW_ON, so with J10 open U2 stays disabled regardle
 | GPIO4 | ON_BATTERY | 1 on battery, 0 on mains. Interrupt on both edges = switchover moment |
 | GPIO3 | CHRG_SIG | 1 charging. Enable the internal pull-up |
 | GPIO7 | DONE_SIG | 1 charge complete. Enable the internal pull-up |
+| GPIO8 | SDA | I2C data to INA226 (U8, address 0x40), 10 kΩ pull-up on the board |
+| GPIO9 | SCL | I2C clock to INA226 |
 
 CHRG_SIG and DONE_SIG pass through 2N7002 transistors (Q8, Q9), so the logic is inverted. If V15 is present but the CN3763 is not charging, both signals read 0. Without mains both read 1, so check ON_BATTERY first. U6 dissipates about 0.9 W at 100 mA with 12.6 V input.
 
@@ -127,6 +130,21 @@ Charge status LEDs connect to J11 (JST PH, 4 pins): 1 CHRG anode, 2 CHRG cathode
 Load power indicator: green D5 from VOUT through R27 3 kΩ, lit when voltage is present on the output (marked OUT). A matching external LED connects to J12 (JST PH, 4 pins): pin 1 anode, pin 2 cathode, through R28 3 kΩ from VOUT.
 
 Battery operation indicator: D4 on the board and an external LED on J12 (pin 3 anode, pin 4 cathode). Both light when ON_BATTERY = 1, through switch Q11 (2N7002), powered from VOUT through R25 and R26 at 3 kΩ each, about 3 mA per LED. The indicator does not work when the output is off. Board markings: J11 C+ C- D+ D- (C = CHRG, D = DONE), J12 left to right +OUT- and +BAT-.
+
+Output monitor: U8 (INA226) measures the output current on shunt R29 (2 mΩ, 2512) and the output voltage after the shunt. At 8 A the shunt drops 16 mV and dissipates 0.13 W. The ESP32 and U6 are fed before the shunt, so their current is not counted. ALERT is not connected.
+
+Display connector J13 with SPI and I2C (JST PH, 8 pins):
+
+| Pin | Signal | ESP32 |
+|---|---|---|
+| 1 | GND | |
+| 2 | 3V3 | from U6 |
+| 3 | SCK | GPIO6 |
+| 4 | MOSI | GPIO10 |
+| 5 | MISO | GPIO21 |
+| 6 | CS | GPIO1 |
+| 7 | SDA | GPIO8 |
+| 8 | SCL | GPIO9 |
 
 ## Output off
 
