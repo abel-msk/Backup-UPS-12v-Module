@@ -16,7 +16,7 @@ This board is the next step of the [Backup power switch 12v Module](https://gith
 | **Switchover** | Relay K1 controlled by ESP32-C3 firmware, diode-OR D7 holds the outputs while the relay moves | Backup depended on running firmware, and the relay is a mechanical part in the 12 V path | Two ideal diodes and no relay. The battery leg is enabled by hardware, without firmware |
 | **Mains loss detection** | Firmware compares INA219 currents | The battery back-feeds the PSU side through D7 and K1, so the PSU voltage divider still reads close to normal | U1 blocks back-feed, and the U7 detector measures PSU_IN directly |
 | **Charging** | CN3763 buck charger fed directly from the PSU | With a 12.6 V PSU the pack reaches only about 11.2–11.4 V (45–55 % capacity), DONE is never asserted and most BMS boards do not balance | MT3608 boosts the charger input to 14.7 V, so the pack can charge to 12.6 V |
-| **Monitoring** | Two INA219 sensors and ADC dividers | No longer needed to detect mains loss | The ESP32-C3 only reads ON_BATTERY, CHRG_SIG and DONE_SIG. Current and voltage are not measured |
+| **Monitoring** | Two INA219 sensors and ADC dividers | No longer needed to detect mains loss | Mains loss is detected in hardware, without a sensor. U8 (INA226) on shunt R29 measures the output current and voltage for monitoring only. The ESP32-C3 also reads ON_BATTERY, CHRG_SIG and DONE_SIG |
 
 This design has not been tested on hardware yet.
 
