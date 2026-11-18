@@ -1,0 +1,142 @@
+<title>UPS 12v AliExpress</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column, summary chips on top, three status groups as tables */
+:root{
+  --bg:#f6f8f7; --surface:#ffffff; --fg:#17201c; --muted:#5d6b65; --line:#dde4e0;
+  --accent:#1f7a55;
+  --buy:#b4431f; --buy-bg:#fbe9e2;
+  --ord:#1f6aa8; --ord-bg:#e3eef8;
+  --chk:#8a6a00; --chk-bg:#f7efcf;
+  --sans:"IBM Plex Sans",-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#111614; --surface:#18201d; --fg:#e4ebe7; --muted:#93a39b; --line:#2a3530;
+  --accent:#5cc493;
+  --buy:#f08a66; --buy-bg:#3a2119; --ord:#7ab6ea; --ord-bg:#172a3b; --chk:#e2c25a; --chk-bg:#332b10;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111614; --surface:#18201d; --fg:#e4ebe7; --muted:#93a39b; --line:#2a3530;
+  --accent:#5cc493;
+  --buy:#f08a66; --buy-bg:#3a2119; --ord:#7ab6ea; --ord-bg:#172a3b; --chk:#e2c25a; --chk-bg:#332b10;
+  color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 var(--sans);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 48px}
+.wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+header{display:flex;flex-direction:column;gap:6px}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-size:26px;font-weight:600;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0;max-width:68ch}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{display:flex;align-items:baseline;gap:8px;padding:10px 14px;border-radius:8px;background:var(--surface);border:1px solid var(--line)}
+.chip b{font:600 20px/1 var(--mono);font-variant-numeric:tabular-nums}
+.chip span{color:var(--muted);font-size:13px}
+.chip.buy b{color:var(--buy)} .chip.ord b{color:var(--ord)} .chip.chk b{color:var(--chk)}
+section{display:flex;flex-direction:column;gap:10px}
+.sec-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px}
+h2{font-size:17px;font-weight:600;margin:0;display:flex;align-items:center;gap:10px}
+.pill{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:5px 8px;border-radius:999px}
+.pill.buy{background:var(--buy-bg);color:var(--buy)} .pill.ord{background:var(--ord-bg);color:var(--ord)} .pill.chk{background:var(--chk-bg);color:var(--chk)}
+button{font:500 13px var(--sans);color:var(--accent);background:transparent;border:1px solid var(--accent);border-radius:6px;padding:6px 12px;cursor:pointer}
+button:hover{background:color-mix(in srgb,var(--accent) 10%,transparent)}
+button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tbl{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:760px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:0}
+th{font:500 11px/1.2 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:color-mix(in srgb,var(--line) 35%,var(--surface))}
+td.ref,td.qty,td.fp,td.ord{font-family:var(--mono);font-size:13px}
+td.qty{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.ref{white-space:nowrap;font-weight:500}
+td.fp{color:var(--muted);word-break:break-all;max-width:220px}
+td.part b{font-weight:600}
+td.note{color:var(--muted);font-size:13.5px;max-width:340px}
+td.ord{white-space:nowrap}
+.eta{display:block;font-family:var(--sans);font-size:12.5px;color:var(--muted)}
+.eta.go{color:var(--ord)}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Backup UPS 12v Module v2.0 · BOM от 11.11.2026</div>
+    <h1>Позиции с AliExpress</h1>
+    <p class="sub">Из листа «AliExpress» файла BOM.xlsx. Что уже заказано 06–09.11 и что ещё надо купить. Остальные позиции платы есть на складе.</p>
+  </header>
+
+  <div class="chips">
+    <div class="chip buy"><b>6</b><span>строк купить</span></div>
+    <div class="chip ord"><b>6</b><span>строк заказано</span></div>
+    <div class="chip chk"><b>1</b><span>проверить склад</span></div>
+  </div>
+
+  <section>
+    <div class="sec-head">
+      <h2><span class="pill buy">Купить</span>Не заказано</h2>
+      <button type="button" id="copy-buy">Скопировать список</button>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Позиции</th><th>Кол-во</th><th>Деталь</th><th>Футпринт</th><th>Примечание</th></tr></thead>
+      <tbody>
+        <tr><td class="ref">U8</td><td class="qty">1</td><td class="part"><b>INA226</b><br>INA226AIDGSR, адрес 0x40</td><td class="fp">TSSOP-10_3x3mm_P0.5mm</td><td class="note">Монитор тока/напряжения I2C</td></tr>
+        <tr><td class="ref">F1</td><td class="qty">1</td><td class="part"><b>10 А</b><br>Littelfuse 0451010 (NANO2 451) в держателе 01550900M</td><td class="fp">Fuseholder_1808_SMD_Littelfuse_01550900</td><td class="note">В корзине лежит RGEF1200 (самовосст., 16 В, 12 А). Это другая деталь, под этот футпринт не подходит</td></tr>
+        <tr><td class="ref">R5 R21</td><td class="qty">2</td><td class="part"><b>20 кОм 1%</b></td><td class="fp">R_0805_2012Metric</td><td class="note">R21 делитель порога детектора, R5 делитель boost. Нужен 1%</td></tr>
+        <tr><td class="ref">R20</td><td class="qty">1</td><td class="part"><b>160 кОм 1%</b></td><td class="fp">R_0805_2012Metric</td><td class="note">Делитель порога детектора, нужен 1%</td></tr>
+        <tr><td class="ref">R29</td><td class="qty">1</td><td class="part"><b>0,002 Ом 1%</b><br>шунт, 2 Вт</td><td class="fp">R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</td><td class="note">06.11 заказаны шунты 2512 на 0,1 и 0,2 Ом, а нужен 0,002 Ом</td></tr>
+        <tr><td class="ref">R30 R31</td><td class="qty">2</td><td class="part"><b>10 кОм</b></td><td class="fp">R_0805_2012Metric</td><td class="note">В базе 10 кОм только выводной (id 164)</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2><span class="pill ord">Заказано</span>В пути или в обработке</h2>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Позиции</th><th>Кол-во</th><th>Деталь</th><th>Футпринт</th><th>Заказ</th><th>Примечание</th></tr></thead>
+      <tbody>
+        <tr><td class="ref">U1 U2</td><td class="qty">2</td><td class="part"><b>LM74700-Q1</b><br>LM74700QDBVRQ1</td><td class="fp">SOT-23-6</td><td class="ord">2611 0677 0235 3191<span class="eta">06.11, 10 шт., обрабатывается</span></td><td class="note">Контроллер идеального диода</td></tr>
+        <tr><td class="ref">U4</td><td class="qty">1</td><td class="part"><b>CN3763</b></td><td class="fp">SSOP-10_3.9x4.9mm_P1.00mm</td><td class="ord">5548 9470 2809 0705<span class="eta">09.11, 1 шт., создан</span></td><td class="note">В базе запись id 332 без наличия</td></tr>
+        <tr><td class="ref">Q5</td><td class="qty">1</td><td class="part"><b>AOD403</b><br>MOSFET P, TO-252</td><td class="fp">TO-252-2</td><td class="ord">5548 9470 2801 0705<span class="eta go">09.11, 10 шт., отправлен, до 23.11</span></td><td class="note"></td></tr>
+        <tr><td class="ref">C12</td><td class="qty">1</td><td class="part"><b>220 нФ</b> 50 В</td><td class="fp">C_0805_2012Metric</td><td class="ord">5548 9470 2807 0705<span class="eta go">09.11, 100 шт., отправлен, до 21.11</span></td><td class="note"></td></tr>
+        <tr><td class="ref">R7</td><td class="qty">1</td><td class="part"><b>0,15 Ом 1%</b></td><td class="fp">R_1206_3216Metric</td><td class="ord">2611 0921 7260 8460<span class="eta go">09.11, 50 шт., отправлен, до 15.12</span></td><td class="note">Ток заряда 0,8 А, рассеивает около 0,1 Вт</td></tr>
+        <tr><td class="ref">R22</td><td class="qty">1</td><td class="part"><b>10 МОм</b> 1%</td><td class="fp">R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td class="ord">5548 9470 2803 0705<span class="eta go">09.11, 100 шт., отправлен, до 20.11</span></td><td class="note"></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2><span class="pill chk">Проверить</span>Может понадобиться купить</h2>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Позиции</th><th>Кол-во</th><th>Деталь</th><th>Футпринт</th><th>Примечание</th></tr></thead>
+      <tbody>
+        <tr><td class="ref">R23</td><td class="qty">1</td><td class="part"><b>20 кОм</b></td><td class="fp">R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</td><td class="note">В схеме Source = склад, но в базе 20 кОм есть только 0603 (id 166) и выводной 1 Вт (id 165). Если 0805 нет, добавить к R5 R21 (тогда 3 шт., можно 1%)</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <footer>Источник: Backup UPS 12v Module/Documents/BOM.xlsx, лист «AliExpress». Старые заказы (до 06.11) не проверялись.</footer>
+</div>
+
+<script>
+(function(){
+  var btn=document.getElementById('copy-buy');
+  var text=[
+    'U8 — INA226AIDGSR (TSSOP-10), 1 шт.',
+    'F1 — Littelfuse 0451010 NANO2 10 А + держатель 01550900M, 1 шт.',
+    'R5 R21 — 20 кОм 1% 0805, 2 шт.',
+    'R20 — 160 кОм 1% 0805, 1 шт.',
+    'R29 — шунт 0,002 Ом 1% 2512, 1 шт.',
+    'R30 R31 — 10 кОм 0805, 2 шт.'
+  ].join('\n');
+  btn.addEventListener('click',function(){
+    var done=function(){btn.textContent='Скопировано';setTimeout(function(){btn.textContent='Скопировать список'},1800)};
+    try{navigator.clipboard.writeText(text).then(done,function(){btn.textContent='Не удалось скопировать'})}
+    catch(e){btn.textContent='Не удалось скопировать'}
+  });
+})();
+</script>

@@ -1,10 +1,29 @@
 # MacOS files
 **/.DS_Store
 **/.idea
-*backups/*
+# KiCad and other application backup folders
+**/*-backups/
+**/backups/
+**/backup/
+# Backup copies and editor recovery files
+*.bak
+*.bak[0-9]
+*.bkp
+*.backup
+*.backup.*
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*.tmp
+*.temp
+*.autosave
+*~
+.#*
+# KiCad autosave files
+_autosave-*
 **/*.zip
 *.lck
-~*
-_autosave-*
 fp-info-cache
 .history/
